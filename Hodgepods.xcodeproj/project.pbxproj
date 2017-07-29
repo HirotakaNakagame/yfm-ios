@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDEA3B5F1F2D072300D238A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA3B5E1F2D072300D238A2 /* AppDelegate.swift */; };
+		CDEA3B611F2D072300D238A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA3B601F2D072300D238A2 /* ViewController.swift */; };
+		CDEA3B641F2D072300D238A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEA3B621F2D072300D238A2 /* Main.storyboard */; };
+		CDEA3B661F2D072300D238A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDEA3B651F2D072300D238A2 /* Assets.xcassets */; };
+		CDEA3B691F2D072300D238A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEA3B671F2D072300D238A2 /* LaunchScreen.storyboard */; };
+		CDEA3B741F2D072300D238A2 /* HodgepodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA3B731F2D072300D238A2 /* HodgepodsTests.swift */; };
+		CDEA3B7F1F2D072300D238A2 /* HodgepodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA3B7E1F2D072300D238A2 /* HodgepodsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDEA3B701F2D072300D238A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDEA3B531F2D072300D238A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEA3B5A1F2D072300D238A2;
+			remoteInfo = Hodgepods;
+		};
+		CDEA3B7B1F2D072300D238A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDEA3B531F2D072300D238A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEA3B5A1F2D072300D238A2;
+			remoteInfo = Hodgepods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDEA3B5B1F2D072300D238A2 /* Hodgepods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hodgepods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEA3B5E1F2D072300D238A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDEA3B601F2D072300D238A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDEA3B631F2D072300D238A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDEA3B651F2D072300D238A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDEA3B681F2D072300D238A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDEA3B6A1F2D072300D238A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDEA3B6F1F2D072300D238A2 /* HodgepodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HodgepodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEA3B731F2D072300D238A2 /* HodgepodsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HodgepodsTests.swift; sourceTree = "<group>"; };
+		CDEA3B751F2D072300D238A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDEA3B7A1F2D072300D238A2 /* HodgepodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HodgepodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEA3B7E1F2D072300D238A2 /* HodgepodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HodgepodsUITests.swift; sourceTree = "<group>"; };
+		CDEA3B801F2D072300D238A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDEA3B581F2D072300D238A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEA3B6C1F2D072300D238A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEA3B771F2D072300D238A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDEA3B521F2D072300D238A2 = {
+			isa = PBXGroup;
+			children = (
+				CDEA3B5D1F2D072300D238A2 /* Hodgepods */,
+				CDEA3B721F2D072300D238A2 /* HodgepodsTests */,
+				CDEA3B7D1F2D072300D238A2 /* HodgepodsUITests */,
+				CDEA3B5C1F2D072300D238A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDEA3B5C1F2D072300D238A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDEA3B5B1F2D072300D238A2 /* Hodgepods.app */,
+				CDEA3B6F1F2D072300D238A2 /* HodgepodsTests.xctest */,
+				CDEA3B7A1F2D072300D238A2 /* HodgepodsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDEA3B5D1F2D072300D238A2 /* Hodgepods */ = {
+			isa = PBXGroup;
+			children = (
+				CDEA3B5E1F2D072300D238A2 /* AppDelegate.swift */,
+				CDEA3B601F2D072300D238A2 /* ViewController.swift */,
+				CDEA3B621F2D072300D238A2 /* Main.storyboard */,
+				CDEA3B651F2D072300D238A2 /* Assets.xcassets */,
+				CDEA3B671F2D072300D238A2 /* LaunchScreen.storyboard */,
+				CDEA3B6A1F2D072300D238A2 /* Info.plist */,
+			);
+			path = Hodgepods;
+			sourceTree = "<group>";
+		};
+		CDEA3B721F2D072300D238A2 /* HodgepodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDEA3B731F2D072300D238A2 /* HodgepodsTests.swift */,
+				CDEA3B751F2D072300D238A2 /* Info.plist */,
+			);
+			path = HodgepodsTests;
+			sourceTree = "<group>";
+		};
+		CDEA3B7D1F2D072300D238A2 /* HodgepodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDEA3B7E1F2D072300D238A2 /* HodgepodsUITests.swift */,
+				CDEA3B801F2D072300D238A2 /* Info.plist */,
+			);
+			path = HodgepodsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDEA3B5A1F2D072300D238A2 /* Hodgepods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDEA3B831F2D072300D238A2 /* Build configuration list for PBXNativeTarget "Hodgepods" */;
+			buildPhases = (
+				CDEA3B571F2D072300D238A2 /* Sources */,
+				CDEA3B581F2D072300D238A2 /* Frameworks */,
+				CDEA3B591F2D072300D238A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hodgepods;
+			productName = Hodgepods;
+			productReference = CDEA3B5B1F2D072300D238A2 /* Hodgepods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDEA3B6E1F2D072300D238A2 /* HodgepodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDEA3B861F2D072300D238A2 /* Build configuration list for PBXNativeTarget "HodgepodsTests" */;
+			buildPhases = (
+				CDEA3B6B1F2D072300D238A2 /* Sources */,
+				CDEA3B6C1F2D072300D238A2 /* Frameworks */,
+				CDEA3B6D1F2D072300D238A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDEA3B711F2D072300D238A2 /* PBXTargetDependency */,
+			);
+			name = HodgepodsTests;
+			productName = HodgepodsTests;
+			productReference = CDEA3B6F1F2D072300D238A2 /* HodgepodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDEA3B791F2D072300D238A2 /* HodgepodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDEA3B891F2D072300D238A2 /* Build configuration list for PBXNativeTarget "HodgepodsUITests" */;
+			buildPhases = (
+				CDEA3B761F2D072300D238A2 /* Sources */,
+				CDEA3B771F2D072300D238A2 /* Frameworks */,
+				CDEA3B781F2D072300D238A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDEA3B7C1F2D072300D238A2 /* PBXTargetDependency */,
+			);
+			name = HodgepodsUITests;
+			productName = HodgepodsUITests;
+			productReference = CDEA3B7A1F2D072300D238A2 /* HodgepodsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDEA3B531F2D072300D238A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Code;
+				TargetAttributes = {
+					CDEA3B5A1F2D072300D238A2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					CDEA3B6E1F2D072300D238A2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDEA3B5A1F2D072300D238A2;
+					};
+					CDEA3B791F2D072300D238A2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDEA3B5A1F2D072300D238A2;
+					};
+				};
+			};
+			buildConfigurationList = CDEA3B561F2D072300D238A2 /* Build configuration list for PBXProject "Hodgepods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDEA3B521F2D072300D238A2;
+			productRefGroup = CDEA3B5C1F2D072300D238A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDEA3B5A1F2D072300D238A2 /* Hodgepods */,
+				CDEA3B6E1F2D072300D238A2 /* HodgepodsTests */,
+				CDEA3B791F2D072300D238A2 /* HodgepodsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDEA3B591F2D072300D238A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEA3B691F2D072300D238A2 /* LaunchScreen.storyboard in Resources */,
+				CDEA3B661F2D072300D238A2 /* Assets.xcassets in Resources */,
+				CDEA3B641F2D072300D238A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEA3B6D1F2D072300D238A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEA3B781F2D072300D238A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDEA3B571F2D072300D238A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEA3B611F2D072300D238A2 /* ViewController.swift in Sources */,
+				CDEA3B5F1F2D072300D238A2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEA3B6B1F2D072300D238A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEA3B741F2D072300D238A2 /* HodgepodsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEA3B761F2D072300D238A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEA3B7F1F2D072300D238A2 /* HodgepodsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDEA3B711F2D072300D238A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDEA3B5A1F2D072300D238A2 /* Hodgepods */;
+			targetProxy = CDEA3B701F2D072300D238A2 /* PBXContainerItemProxy */;
+		};
+		CDEA3B7C1F2D072300D238A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDEA3B5A1F2D072300D238A2 /* Hodgepods */;
+			targetProxy = CDEA3B7B1F2D072300D238A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDEA3B621F2D072300D238A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDEA3B631F2D072300D238A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDEA3B671F2D072300D238A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDEA3B681F2D072300D238A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDEA3B811F2D072300D238A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDEA3B821F2D072300D238A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDEA3B841F2D072300D238A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hodgepods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = C4TK.Hodgepods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CDEA3B851F2D072300D238A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hodgepods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = C4TK.Hodgepods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CDEA3B871F2D072300D238A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HodgepodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = C4TK.HodgepodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hodgepods.app/Hodgepods";
+			};
+			name = Debug;
+		};
+		CDEA3B881F2D072300D238A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HodgepodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = C4TK.HodgepodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hodgepods.app/Hodgepods";
+			};
+			name = Release;
+		};
+		CDEA3B8A1F2D072300D238A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HodgepodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = C4TK.HodgepodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hodgepods;
+			};
+			name = Debug;
+		};
+		CDEA3B8B1F2D072300D238A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HodgepodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = C4TK.HodgepodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hodgepods;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDEA3B561F2D072300D238A2 /* Build configuration list for PBXProject "Hodgepods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEA3B811F2D072300D238A2 /* Debug */,
+				CDEA3B821F2D072300D238A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDEA3B831F2D072300D238A2 /* Build configuration list for PBXNativeTarget "Hodgepods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEA3B841F2D072300D238A2 /* Debug */,
+				CDEA3B851F2D072300D238A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDEA3B861F2D072300D238A2 /* Build configuration list for PBXNativeTarget "HodgepodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEA3B871F2D072300D238A2 /* Debug */,
+				CDEA3B881F2D072300D238A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDEA3B891F2D072300D238A2 /* Build configuration list for PBXNativeTarget "HodgepodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEA3B8A1F2D072300D238A2 /* Debug */,
+				CDEA3B8B1F2D072300D238A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDEA3B531F2D072300D238A2 /* Project object */;
+}
