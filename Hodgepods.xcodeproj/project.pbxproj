@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13F78E9262C2826DA506A769 /* Pods_Hodgepods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846C289BC83DA21A90328D64 /* Pods_Hodgepods.framework */; };
+		61767DF699ABD9E5394B0EEA /* Pods_HodgepodsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD36CED3ED5AB8A39404D646 /* Pods_HodgepodsTests.framework */; };
+		63A972908BE83F974733D328 /* Pods_HodgepodsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B87C133B0EB5B2EFF465C4 /* Pods_HodgepodsUITests.framework */; };
 		CDEA3B5F1F2D072300D238A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA3B5E1F2D072300D238A2 /* AppDelegate.swift */; };
 		CDEA3B611F2D072300D238A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA3B601F2D072300D238A2 /* ViewController.swift */; };
 		CDEA3B641F2D072300D238A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEA3B621F2D072300D238A2 /* Main.storyboard */; };
@@ -14,6 +17,9 @@
 		CDEA3B691F2D072300D238A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEA3B671F2D072300D238A2 /* LaunchScreen.storyboard */; };
 		CDEA3B741F2D072300D238A2 /* HodgepodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA3B731F2D072300D238A2 /* HodgepodsTests.swift */; };
 		CDEA3B7F1F2D072300D238A2 /* HodgepodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA3B7E1F2D072300D238A2 /* HodgepodsUITests.swift */; };
+		CDEA3B8D1F2D095800D238A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDEA3B8C1F2D095800D238A2 /* GoogleService-Info.plist */; };
+		CDEA3B8F1F2D1DBD00D238A2 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA3B8E1F2D1DBD00D238A2 /* Artwork.swift */; };
+		CDEA3B911F2D1F6300D238A2 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA3B901F2D1F6300D238A2 /* VCMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02B87C133B0EB5B2EFF465C4 /* Pods_HodgepodsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HodgepodsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AFC2D129A226065A55FC4E9 /* Pods-Hodgepods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hodgepods.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hodgepods/Pods-Hodgepods.release.xcconfig"; sourceTree = "<group>"; };
+		513D922E5B4B2C7D5239184B /* Pods-HodgepodsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HodgepodsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HodgepodsUITests/Pods-HodgepodsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		779E37637D74D9449911DFF0 /* Pods-HodgepodsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HodgepodsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HodgepodsTests/Pods-HodgepodsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7878519E33ABEBA325B95BDF /* Pods-HodgepodsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HodgepodsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HodgepodsUITests/Pods-HodgepodsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		846C289BC83DA21A90328D64 /* Pods_Hodgepods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hodgepods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72389B1A6AC41E42BCA3E48 /* Pods-HodgepodsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HodgepodsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HodgepodsTests/Pods-HodgepodsTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD36CED3ED5AB8A39404D646 /* Pods_HodgepodsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HodgepodsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51408D1FBE5A325EA379EA6 /* Pods-Hodgepods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hodgepods.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hodgepods/Pods-Hodgepods.debug.xcconfig"; sourceTree = "<group>"; };
 		CDEA3B5B1F2D072300D238A2 /* Hodgepods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hodgepods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDEA3B5E1F2D072300D238A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDEA3B601F2D072300D238A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,9 @@
 		CDEA3B7A1F2D072300D238A2 /* HodgepodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HodgepodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDEA3B7E1F2D072300D238A2 /* HodgepodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HodgepodsUITests.swift; sourceTree = "<group>"; };
 		CDEA3B801F2D072300D238A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDEA3B8C1F2D095800D238A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CDEA3B8E1F2D1DBD00D238A2 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		CDEA3B901F2D1F6300D238A2 /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13F78E9262C2826DA506A769 /* Pods_Hodgepods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61767DF699ABD9E5394B0EEA /* Pods_HodgepodsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A972908BE83F974733D328 /* Pods_HodgepodsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CB4D37C7F840E5C7AE374DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C51408D1FBE5A325EA379EA6 /* Pods-Hodgepods.debug.xcconfig */,
+				4AFC2D129A226065A55FC4E9 /* Pods-Hodgepods.release.xcconfig */,
+				779E37637D74D9449911DFF0 /* Pods-HodgepodsTests.debug.xcconfig */,
+				A72389B1A6AC41E42BCA3E48 /* Pods-HodgepodsTests.release.xcconfig */,
+				7878519E33ABEBA325B95BDF /* Pods-HodgepodsUITests.debug.xcconfig */,
+				513D922E5B4B2C7D5239184B /* Pods-HodgepodsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CDEA3B521F2D072300D238A2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +115,8 @@
 				CDEA3B721F2D072300D238A2 /* HodgepodsTests */,
 				CDEA3B7D1F2D072300D238A2 /* HodgepodsUITests */,
 				CDEA3B5C1F2D072300D238A2 /* Products */,
+				2CB4D37C7F840E5C7AE374DB /* Pods */,
+				F82D761510A84A4F6DA44547 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +135,13 @@
 			children = (
 				CDEA3B5E1F2D072300D238A2 /* AppDelegate.swift */,
 				CDEA3B601F2D072300D238A2 /* ViewController.swift */,
+				CDEA3B901F2D1F6300D238A2 /* VCMapView.swift */,
+				CDEA3B8E1F2D1DBD00D238A2 /* Artwork.swift */,
 				CDEA3B621F2D072300D238A2 /* Main.storyboard */,
 				CDEA3B651F2D072300D238A2 /* Assets.xcassets */,
 				CDEA3B671F2D072300D238A2 /* LaunchScreen.storyboard */,
 				CDEA3B6A1F2D072300D238A2 /* Info.plist */,
+				CDEA3B8C1F2D095800D238A2 /* GoogleService-Info.plist */,
 			);
 			path = Hodgepods;
 			sourceTree = "<group>";
@@ -125,6 +164,16 @@
 			path = HodgepodsUITests;
 			sourceTree = "<group>";
 		};
+		F82D761510A84A4F6DA44547 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				846C289BC83DA21A90328D64 /* Pods_Hodgepods.framework */,
+				AD36CED3ED5AB8A39404D646 /* Pods_HodgepodsTests.framework */,
+				02B87C133B0EB5B2EFF465C4 /* Pods_HodgepodsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDEA3B831F2D072300D238A2 /* Build configuration list for PBXNativeTarget "Hodgepods" */;
 			buildPhases = (
+				F8966C1D4780D535E9AA6C54 /* [CP] Check Pods Manifest.lock */,
 				CDEA3B571F2D072300D238A2 /* Sources */,
 				CDEA3B581F2D072300D238A2 /* Frameworks */,
 				CDEA3B591F2D072300D238A2 /* Resources */,
+				7ED0F471BD2819E369334E73 /* [CP] Embed Pods Frameworks */,
+				9DC0BB5D693DE0E90A618FE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDEA3B861F2D072300D238A2 /* Build configuration list for PBXNativeTarget "HodgepodsTests" */;
 			buildPhases = (
+				AA76830A7E00E25DA1724ECB /* [CP] Check Pods Manifest.lock */,
 				CDEA3B6B1F2D072300D238A2 /* Sources */,
 				CDEA3B6C1F2D072300D238A2 /* Frameworks */,
 				CDEA3B6D1F2D072300D238A2 /* Resources */,
+				58A08BFA6D37F53FE3E5322F /* [CP] Embed Pods Frameworks */,
+				51FC891643D18581DBB75CF4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDEA3B891F2D072300D238A2 /* Build configuration list for PBXNativeTarget "HodgepodsUITests" */;
 			buildPhases = (
+				910E257CD710C12D1B29264B /* [CP] Check Pods Manifest.lock */,
 				CDEA3B761F2D072300D238A2 /* Sources */,
 				CDEA3B771F2D072300D238A2 /* Frameworks */,
 				CDEA3B781F2D072300D238A2 /* Resources */,
+				D7185A04A5D5F576BA906FA7 /* [CP] Embed Pods Frameworks */,
+				C4B8274E7C33ED4357FE431D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDEA3B691F2D072300D238A2 /* LaunchScreen.storyboard in Resources */,
+				CDEA3B8D1F2D095800D238A2 /* GoogleService-Info.plist in Resources */,
 				CDEA3B661F2D072300D238A2 /* Assets.xcassets in Resources */,
 				CDEA3B641F2D072300D238A2 /* Main.storyboard in Resources */,
 			);
@@ -254,12 +313,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51FC891643D18581DBB75CF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HodgepodsTests/Pods-HodgepodsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58A08BFA6D37F53FE3E5322F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HodgepodsTests/Pods-HodgepodsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ED0F471BD2819E369334E73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hodgepods/Pods-Hodgepods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		910E257CD710C12D1B29264B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DC0BB5D693DE0E90A618FE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hodgepods/Pods-Hodgepods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA76830A7E00E25DA1724ECB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C4B8274E7C33ED4357FE431D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HodgepodsUITests/Pods-HodgepodsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7185A04A5D5F576BA906FA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HodgepodsUITests/Pods-HodgepodsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8966C1D4780D535E9AA6C54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CDEA3B571F2D072300D238A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDEA3B911F2D1F6300D238A2 /* VCMapView.swift in Sources */,
 				CDEA3B611F2D072300D238A2 /* ViewController.swift in Sources */,
+				CDEA3B8F1F2D1DBD00D238A2 /* Artwork.swift in Sources */,
 				CDEA3B5F1F2D072300D238A2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +607,7 @@
 		};
 		CDEA3B841F2D072300D238A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51408D1FBE5A325EA379EA6 /* Pods-Hodgepods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hodgepods/Info.plist;
@@ -420,6 +620,7 @@
 		};
 		CDEA3B851F2D072300D238A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AFC2D129A226065A55FC4E9 /* Pods-Hodgepods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hodgepods/Info.plist;
@@ -432,6 +633,7 @@
 		};
 		CDEA3B871F2D072300D238A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 779E37637D74D9449911DFF0 /* Pods-HodgepodsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +648,7 @@
 		};
 		CDEA3B881F2D072300D238A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A72389B1A6AC41E42BCA3E48 /* Pods-HodgepodsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +663,7 @@
 		};
 		CDEA3B8A1F2D072300D238A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7878519E33ABEBA325B95BDF /* Pods-HodgepodsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = HodgepodsUITests/Info.plist;
@@ -473,6 +677,7 @@
 		};
 		CDEA3B8B1F2D072300D238A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 513D922E5B4B2C7D5239184B /* Pods-HodgepodsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = HodgepodsUITests/Info.plist;
@@ -503,6 +708,7 @@
 				CDEA3B851F2D072300D238A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDEA3B861F2D072300D238A2 /* Build configuration list for PBXNativeTarget "HodgepodsTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +717,7 @@
 				CDEA3B881F2D072300D238A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDEA3B891F2D072300D238A2 /* Build configuration list for PBXNativeTarget "HodgepodsUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +726,7 @@
 				CDEA3B8B1F2D072300D238A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
