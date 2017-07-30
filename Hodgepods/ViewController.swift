@@ -36,13 +36,13 @@ class ViewController: UIViewController {
                                       locationName: "Food level: \(podDict["foodCount"]!)" ,
                     discipline: "Subway Station",
                     coordinate: CLLocationCoordinate2D(latitude: podDict["lat"] as! Double,longitude: podDict["long"] as! Double),
-                    color: (podDict["foodCount"] as! Int) < 4 ? UIColor.init(red: 1.0, green: 199.0/255.0, blue: 0.0, alpha: 1) : UIColor.init(red: 51.0/255.0, green: 153.0/255.0, blue: 51.0/255.0, alpha: 1))
-                (podDict["foodCount"] as! Int) < 3 ? lowRunningPodNames.append(podDict["name"] as! String) : ()
+                    color: (podDict["foodCount"] as! Int) == 0 ? UIColor.init(red: 1.0, green: 199.0/255.0, blue: 0.0, alpha: 1) : UIColor.init(red: 51.0/255.0, green: 153.0/255.0, blue: 51.0/255.0, alpha: 1))
+                (podDict["foodCount"] as! Int) == 0 ? lowRunningPodNames.append(podDict["name"] as! String) : ()
                 self.mapView.delegate = self
                 self.mapView.addAnnotation(station)
             }
-            if (lowRunningPodNames.count > 0) {
-                SCLAlertView().showWarning("Just a heads up", subTitle: "Looks like the \(lowRunningPodNames[0]) is running low. Got any leftovers?")
+            if (lowRunningPodNames.count > 0 && !SCLAlertView().isBeingPresented) {
+                SCLAlertView().showWarning("Just a heads up", subTitle: "Looks like the \(lowRunningPodNames[0]) is running low. Any donations would be greatly appreciated!")
                 // TODO: guide me there button, change text of cancel button
             }
         })
